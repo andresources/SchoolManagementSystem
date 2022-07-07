@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/blue_50"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/tvSNo"
+            android:textColor="#000"
+            android:text="S.No"
+            style="@style/textstyle1_bold_10"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_4sdp"
+            android:paddingRight="@dimen/_4sdp"
+
+            android:layout_weight="0"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:textColor="#000"
+            android:text="Description"
+            style="@style/textstyle1_bold_10"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_4sdp"
+            android:paddingRight="@dimen/_4sdp"
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvFeeAmount"
+            android:textColor="#000"
+            android:layout_weight="0"
+            android:text="Fee Amount"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_4sdp"
+            android:paddingRight="@dimen/_4sdp"
+            style="@style/textstyle1_bold_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>

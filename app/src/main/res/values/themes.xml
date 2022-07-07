@@ -1,0 +1,128 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="textstyle1_light_8" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/open_sans_light</item>
+    </style>
+    <style name="textstyle1_light_10" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/open_sans_light</item>
+    </style>
+    <style name="textstyle1_light_12" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/open_sans_light</item>
+    </style>
+    <style name="textstyle1_light_14" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/open_sans_light</item>
+    </style>
+    <style name="textstyle1_light_16" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:fontFamily">@font/open_sans_light</item>
+    </style>
+    <style name="textstyle1_medium_8" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/open_sans_medium</item>
+    </style>
+    <style name="textstyle1_medium_9" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:fontFamily">@font/open_sans_medium</item>
+    </style>
+    <style name="textstyle1_medium_10" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/open_sans_medium</item>
+    </style>
+    <style name="textstyle1_medium_11" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:fontFamily">@font/open_sans_medium</item>
+    </style>
+    <style name="textstyle1_medium_12" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/open_sans_medium</item>
+    </style>
+    <style name="textstyle1_medium_14" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/open_sans_medium</item>
+    </style>
+    <style name="textstyle1_bold_8" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="textstyle1_bold_10" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="textstyle1_bold_12" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="textstyle1_bold_14" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="textstyle1_bold_16" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="textstyle1_bold_18" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="textstyle1_bold_20" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="textstyle1_bold_22" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_22ssp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="textstyle1_bold_24" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_24ssp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="textstyle1_bold_26" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_26ssp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="mySpinnerItemStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:color">#FFF</item>
+    </style>
+    <style name="Spinner" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:popupBackground">@color/green</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

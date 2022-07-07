@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_2sdp"
+        app:cardCornerRadius="@dimen/_8sdp"
+        android:layout_margin="@dimen/_8sdp"
+        app:cardBackgroundColor="#fff"
+        app:cardMaxElevation="@dimen/_6sdp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="@dimen/_50sdp"
+                android:src="@drawable/ic_no_icon"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tvSubject"
+                android:layout_below="@+id/iv"
+                style="@style/textstyle1_bold_10"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_4sdp"
+                android:minLines="2"
+                android:maxLines="2"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Test"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_a.xml" value="0.15462962962962962" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_absent.xml" value="0.19166666666666668" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_absent_cir.xml" value="0.18333333333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_absent_strip.xml" value="0.18871794871794872" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_blue_rounded.xml" value="0.18611111111111112" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_circle.xml" value="0.1824074074074074" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_disable.xml" value="0.16944444444444445" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_dup_fee.xml" value="0.15648148148148147" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_grade_a.xml" value="0.1824074074074074" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_grade_b.xml" value="0.1824074074074074" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_grade_c.xml" value="0.1824074074074074" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_grade_d.xml" value="0.1648148148148148" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_grade_e.xml" value="0.1648148148148148" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_green_rounded.xml" value="0.18611111111111112" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_h.xml" value="0.15462962962962962" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_holiday.xml" value="0.18871794871794872" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_holiday_cir.xml" value="0.18871794871794872" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_holiday_strip.xml" value="0.18871794871794872" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_login.xml" value="0.19166666666666668" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_logo_yellow.xml" value="0.18425925925925926" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_online_1.xml" value="0.18611111111111112" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_online_2.xml" value="0.18611111111111112" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_online_3.xml" value="0.18611111111111112" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_online_4.xml" value="0.18611111111111112" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_online_5.xml" value="0.18611111111111112" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_order1.xml" value="0.17962962962962964" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_p.xml" value="0.15462962962962962" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_present.xml" value="0.18871794871794872" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_present_cir.xml" value="0.18871794871794872" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_present_strip.xml" value="0.18871794871794872" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_profile_rounded.xml" value="0.18871794871794872" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_subject.xml" value="0.18611111111111112" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_submit.xml" value="0.19166666666666668" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_title.xml" value="0.19166666666666668" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/bg_today_cnt.xml" value="0.17037037037037037" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/repeat_bg.xml" value="0.1648148148148148" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/row_border.xml" value="0.19166666666666668" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/row_payments_total.xml" value="0.15648148148148147" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/shadow_rounded_box.xml" value="0.18871794871794872" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/drawable/top_rounded_card.xml" value="0.19166666666666668" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_atom_payment.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_attendance.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_create_pdfactivity.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_datesheet.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_events.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_exams.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_exams_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_gallery.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_home_work.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_login1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_main1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_notifications.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_online_classes.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_payment_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_payment_receipt.xml" value="0.1" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_payment_transaction_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_payments.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_results_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_results_list.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_splash_screen.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_student_dashboard.xml" value="0.1" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_student_dashboard_old.xml" value="0.1" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_student_profile.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_test_cal.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_test_zoom.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_time_table.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_transaction_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/activity_zoom_image.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/bottom_nav_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/dialog1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/dialog_gallery_alert.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/dialog_image_home_alert.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/dialog_payment_edittext.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/dialog_text_home_alert.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/dialog_transactions_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_attendance.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_e_learning.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_holidays.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_online_classes.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_student_attendance.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_student_events.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_student_exams.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_student_gallery.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_student_home.xml" value="0.1" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_student_home_work.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_student_notifications.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_student_payments.xml" value="0.1" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_student_profile.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_student_time_table.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/fragment_year_attendance.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/my_dialog.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_current_payments.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_elearning.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_elearning_section.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_events.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_exams.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_exams_results.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_exams_timetable.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_gallery.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_home_work.xml" value="0.1" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_installments.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_leaves.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_notifications.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_online_classes.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_payments_total.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_present_absent.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_receipts.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_student_payment1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_student_payments.xml" value="0.1" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_time_table.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/row_transactions.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/sample_my_view.xml" value="0.16145833333333334" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/layout/spinner_item.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18871794871794872" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/app/src/main/res/xml/file_provider_paths.xml" value="0.1" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/imgzoom/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Learning/SambavPharmaMVVM/imgzoom/src/main/res/layout/dialog.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

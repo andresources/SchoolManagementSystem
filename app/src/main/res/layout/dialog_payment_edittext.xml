@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        app:hintTextColor="#B8B8B8"
+        app:boxStrokeColor="#B8B8B8"
+        app:boxStrokeWidth="@dimen/_1sdp"
+        android:layout_margin = "@dimen/_8sdp"
+        style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etAmount"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:background="@color/white"
+            android:paddingStart="0dp"
+            style="@style/textstyle1_medium_12"
+            android:textColor="#000"
+            android:paddingTop="@dimen/_25sdp"
+            android:hint = "Enter Amount"
+            android:inputType = "textEmailAddress"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

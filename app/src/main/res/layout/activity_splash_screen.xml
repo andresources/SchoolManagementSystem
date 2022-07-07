@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgsplash"
+    android:layout_height="match_parent"
+    tools:context=".ui.SplashScreenActivity">
+    <RelativeLayout
+        android:id="@+id/rlLogin"
+        android:layout_width="@dimen/_250sdp"
+        android:background="@drawable/bg_login"
+        android:visibility="gone"
+        android:layout_above="@id/tvNeedHelp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/_10sdp"
+            style="@style/textstyle1_medium_12"
+             />
+        <ImageView
+            android:background="@drawable/ic_login_fw"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tvNeedHelp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/need_help"
+        style="@style/textstyle1_light_12"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/_8sdp"
+        />
+</RelativeLayout>

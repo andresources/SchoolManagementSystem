@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Tapasya</string>
+    <string name="rationale_camera">rationale_camera</string>
+    <string name="rationale_location_contacts">rationale_location_contacts</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="returned_from_app_settings_to_activity">returned_from_app_settings_to_activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="need_help">Need Help?</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="start">Start</string>
+    <string name="events">Events</string>
+    <string name="exams">Exams</string>
+    <string name="gallery">Gallery</string>
+    <string name="messages_notifications">Messages/Notifications</string>
+    <string name="online_classes">Online Classes</string>
+    <string name="payments">Payments</string>
+    <string name="my_profile">My Profile</string>
+    <string name="timetable">Timetable</string>
+    <string name="attendance">Attendance</string>
+    <string name="payments_history">Payments History</string>
+    <string name="details">Details</string>
+    <string name="pay_now">Pay Now</string>
+    <string-array name="ary">
+        <item>-</item>
+    </string-array>
+    <string-array name="acc_ary">
+        <item>2021-2022</item>
+        <item>2020-2021</item>
+        <item>2019-2020</item>
+        <item>2018-2019</item>
+    </string-array>
+    <string name="material_calendar_monday">Mon</string>
+    <string name="material_calendar_tuesday">Tue</string>
+    <string name="material_calendar_wednesday">Wed</string>
+    <string name="material_calendar_thursday">Thu</string>
+    <string name="material_calendar_friday">Fri</string>
+    <string name="material_calendar_saturday">Sat</string>
+    <string name="material_calendar_sunday">Sun</string>
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_2sdp"
+        app:cardCornerRadius="@dimen/_8sdp"
+        android:layout_margin="@dimen/_8sdp"
+        app:cardPreventCornerOverlap="false"
+        app:cardMaxElevation="@dimen/_6sdp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#F4F4F4"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/l11"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    style="@style/textstyle1_medium_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Receipt No."/>
+
+                <TextView
+                    android:id="@+id/tvReceiptNo"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="@color/gray"
+                    style="@style/textstyle1_bold_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TS123456"/>
+
+            </LinearLayout>
+            <View
+                android:background="#DDDDDD"
+                android:layout_height="2dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_width="match_parent"/>
+            <LinearLayout
+                android:id="@+id/l22"
+                android:layout_below="@id/l11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    style="@style/textstyle1_medium_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payment Date"/>
+
+                <TextView
+                    android:id="@+id/tvPaymentDate"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="@color/gray"
+                    style="@style/textstyle1_bold_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 May 2021"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l33"
+                android:layout_below="@id/l22"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    style="@style/textstyle1_medium_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pay Mode"/>
+
+                <TextView
+                    android:id="@+id/tvPayMode"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="@color/gray"
+                    style="@style/textstyle1_bold_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash on Counter"/>
+
+            </LinearLayout>
+            <View
+                android:background="#DDDDDD"
+                android:layout_height="2dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_width="match_parent"/>
+            <LinearLayout
+                android:id="@+id/l44"
+                android:layout_below="@id/l33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    style="@style/textstyle1_medium_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amount Paid"/>
+
+                <TextView
+                    android:id="@+id/tvAmountPaid"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    style="@style/textstyle1_bold_12"
+                    android:textColor="@color/gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25,000.00"/>
+
+            </LinearLayout>
+            <View
+                android:background="#DDDDDD"
+                android:layout_height="2dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_width="match_parent"/>
+            <RelativeLayout
+                android:id="@+id/rlDownload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l44"
+                android:background="@color/bg_color">
+
+                <TextView
+                    android:id="@+id/tvDownload"
+                    style="@style/textstyle1_medium_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:padding="@dimen/_8sdp"
+                    android:text="DOWNLOAD"
+                    android:textColor="#FFF" />
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tvDownload"
+                    android:background="@drawable/ic_download" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

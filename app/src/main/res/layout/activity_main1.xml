@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_500"
+    android:layout_height="match_parent">
+    <com.seglib.SegmentedButtonGroup
+        android:id="@+id/segButton"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:elevation="2dp"
+        android:background="@color/white"
+        app:position="0"
+        app:radius="30dp"
+        app:rippleColor="@color/black"
+        app:selectedBackground="@color/green_700"
+        app:selectedBorderColor="#555555"
+        app:selectedBorderWidth="0dp"
+        app:selectedButtonRadius="30dp"
+        app:selectionAnimationDuration="1000">
+
+        <com.seglib.SegmentedButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+            app:selectedTextColor="@color/white"
+            app:text="ATTENDANCE"
+            app:textColor="@color/black"
+            app:textSize="@dimen/_10ssp" />
+
+        <com.seglib.SegmentedButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+            app:selectedTextColor="@color/white"
+            app:text="HOLIDAY"
+            app:textColor="@color/black"
+            app:textSize="@dimen/_10ssp" />
+
+        <com.seglib.SegmentedButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+            app:selectedTextColor="#FFFFFF"
+            app:text="YEAR"
+            app:textColor="@color/black"
+            app:textSize="@dimen/_10ssp" />
+
+    </com.seglib.SegmentedButtonGroup>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:background="@drawable/top_rounded_card"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnPrevious"
+            android:background="@drawable/ic_bw"
+            android:padding="@dimen/_5sdp"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"/>
+        <Button
+            android:id="@+id/btnNext"
+            android:padding="@dimen/_5sdp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/ic_fw"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="Hello"
+            android:background="@drawable/bg_title"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12ssp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="@dimen/_12sdp"
+            android:paddingRight="@dimen/_12sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <com.callib.CompactCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/compactcalendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        app:compactCalendarTargetHeight="@dimen/_250sdp"
+        app:compactCalendarTextSize="@dimen/_10ssp"
+        app:compactCalendarBackgroundColor="#fff"
+        app:compactCalendarTextColor="#676767"
+        app:compactCalendarCurrentSelectedDayTextColor="#000"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#000d5f0f"
+        app:compactCalendarCurrentDayBackgroundColor="#00B71C1C"
+        app:compactCalendarCurrentDayIndicatorStyle="no_fill_large_indicator"
+        app:compactCalendarEventIndicatorStyle="fill_large_indicator"
+        app:compactCalendarOtherMonthDaysTextColor="#E8E8E8"
+        app:compactCalendarShouldSelectFirstDayOfMonthOnScroll="false"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_absent"
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_height="@dimen/_55sdp">
+        <View
+            android:layout_width="@dimen/_10sdp"
+            android:background="@color/red_400"
+            android:layout_height="@dimen/_55sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Absent"
+            android:textSize="@dimen/_12ssp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:padding="@dimen/_10sdp"
+            android:textColor="#000"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="04"
+            android:id="@+id/tvAbsentCnt"
+            android:padding="8dp"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_absent_cir"
+            android:textColor="@color/red_400"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_present"
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_height="@dimen/_55sdp">
+        <View
+            android:layout_width="@dimen/_10sdp"
+            android:background="@color/green_400"
+            android:layout_height="@dimen/_55sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Festival &amp; Holidays"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="#000"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="15"
+            android:id="@+id/tvHolidaysCnt"
+            android:padding="@dimen/_8sdp"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/_12ssp"
+            android:background="@drawable/bg_present_cir"
+            android:textColor="@color/green_400"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</LinearLayout>
+</LinearLayout>

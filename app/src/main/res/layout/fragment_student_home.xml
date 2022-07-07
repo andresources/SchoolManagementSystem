@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.patient.StudentHomeFragment">
+    <ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_color"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/repeat_bg"
+            android:orientation="vertical">
+            <!-- Profile Start -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/_2sdp"
+                app:cardCornerRadius="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                app:cardMaxElevation="@dimen/_6sdp">
+                <RelativeLayout
+                    android:id="@+id/rlProfile"
+                    android:padding="@dimen/_6sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/llprofile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+                        <ImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/iv"
+                            android:scaleType="fitXY"
+                            android:layout_width="@dimen/_68sdp"
+                            android:layout_height="@dimen/_75sdp"
+                            />
+                        </androidx.cardview.widget.CardView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_8sdp"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:id="@+id/tvName"
+                                android:layout_height="wrap_content"
+                                android:text="Srinivas Rao"
+                                android:layout_marginBottom="@dimen/_4sdp"
+                                style="@style/textstyle1_bold_16"
+                                android:textColor="@color/bg_color"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:id="@+id/tvClass"
+                                android:layout_height="wrap_content"
+                                android:text="Inter 1st year / Roll no : 03 / Section -A"
+                                style="@style/textstyle1_bold_10"
+                                android:layout_marginBottom="@dimen/_4sdp"
+                                android:textColor="@color/sub_text"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:id="@+id/tvBranchName"
+                                android:layout_height="wrap_content"
+                                android:text="Inter 1st year / Roll no : 03 / Section -A"
+                                style="@style/textstyle1_bold_10"
+                                android:textColor="@color/sub_text"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <!-- Profile End -->
+            <!--Grade,Fee and Grid Start-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--Grid Start-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/_45sdp"
+                    android:background="@drawable/top_rounded_card"
+                    android:padding="@dimen/_8sdp">
+
+                    <!-- Row1 Start -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+                        android:layout_marginTop="@dimen/_35sdp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/cvProfile"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:id="@+id/llProfile"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_profile1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_4sdp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Profile"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvAttendance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_attendance1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_4sdp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Attendance"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvPayments"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_payments1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_4sdp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Payments"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Row1 End -->
+                    <!-- Row2 Start -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvHomeWork"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_home_work1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_4sdp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Home Work"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvTimeTable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_time_table1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_4sdp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Time Table"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvExams"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_exams_results1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_2sdp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Exams/\nResults"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_2sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Row2 End -->
+                    <!-- Row3 Start -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvOnlineClasses"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_marginTop="@dimen/_6sdp"
+                            android:layout_marginBottom="@dimen/_6sdp"
+                            android:layout_marginLeft="@dimen/_6sdp"
+                            android:layout_marginRight="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_online_classes1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_marginBottom="@dimen/_2sdp"
+                                    android:layout_marginLeft="@dimen/_4sdp"
+                                    android:layout_marginRight="@dimen/_4sdp"
+                                    android:layout_marginTop="0dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Online\nClasses"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_2sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvGallery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_gallery1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_4sdp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gallery"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvEvents"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_events1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_4sdp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Events"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Row3 End -->
+                    <!-- Row4 Start -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvELearning"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_e_learning1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_4sdp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="E-Learning"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvNotifications"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_notification1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_4sdp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Notifications"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvLogout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_8sdp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/grid_icon_height_width"
+                                    android:background="@drawable/ic_logout1"
+                                    android:layout_height="@dimen/grid_icon_height_width"
+                                    android:layout_margin="@dimen/_4sdp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Logout"
+                                    android:textColor="@color/black"
+                                    android:layout_marginBottom="@dimen/_8sdp"
+                                    style="@style/textstyle1_bold_10"
+                                    android:gravity="center"
+                                    />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Row4 End -->
+                </LinearLayout>
+                <!--Grid End -->
+                <!--Grade and Fee Start-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_75sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/llAttendance"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:background="@drawable/shadow_rounded_box"
+                        android:layout_height="@dimen/_75sdp"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tvAttPercentage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0%"
+                                android:layout_marginTop="@dimen/_16sdp"
+                                android:textColor="#000"
+                                android:layout_gravity="center_horizontal"
+                                style="@style/textstyle1_bold_16"></TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Attendance"
+                                android:textColor="#000"
+                                android:layout_gravity="center_horizontal"
+                                style="@style/textstyle1_bold_12"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llFee"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:background="@drawable/shadow_rounded_box"
+                        android:layout_height="@dimen/_75sdp"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Total Fee Due"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:textColor="#000"
+                                style="@style/textstyle1_bold_10"></TextView>
+                            <TextView
+                                android:id="@+id/tvTotalFee"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="\u20B9 0"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:textColor="#000"
+                                android:layout_gravity="center_horizontal"
+                                style="@style/textstyle1_bold_14"></TextView>
+                            <TextView
+                                android:id="@+id/tvFeeMsg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="-"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:textColor="#F44336"
+                                style="@style/textstyle1_bold_10"></TextView>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!--Grade and Fee End-->
+            </RelativeLayout>
+            <!--Grade,Fee and Grid End -->
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

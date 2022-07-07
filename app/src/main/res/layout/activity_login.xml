@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter User Name"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Pwd"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveData"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getData"
+        android:text="Get" />
+
+    <Button
+        android:id="@+id/btnDraggerEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getGragger"
+        android:text="Dragger Emp" />
+    <Button
+        android:id="@+id/btnRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="roomOPt"
+        android:text="Room" />
+</LinearLayout>

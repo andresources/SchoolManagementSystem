@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.parent.StudentProfileActivity">
+    <RelativeLayout
+        android:background="@drawable/star_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/llBack"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/_16sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/textstyle1_bold_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_profile"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_8sdp"
+        android:background="@drawable/top_rounded_card"
+        android:orientation="vertical">
+        <!-- Profile Start -->
+        <RelativeLayout
+                android:padding="@dimen/_6sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_width="match_parent"
+                android:background="@drawable/bg_profile_rounded"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/llprofile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="@dimen/_8sdp"
+                        app:cardBackgroundColor="@color/white"
+                        android:layout_margin="@dimen/_6sdp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground">
+                        <ImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/iv"
+                            android:scaleType="fitXY"
+                            android:layout_width="@dimen/_68sdp"
+                            android:layout_height="@dimen/_75sdp"
+                            />
+                    </androidx.cardview.widget.CardView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_below="@+id/tvhi"
+                            android:layout_width="match_parent"
+                            android:id="@+id/tvName"
+                            android:layout_height="wrap_content"
+                            android:text="Srinivas Rao"
+                            android:layout_marginBottom="@dimen/_4sdp"
+                            style="@style/textstyle1_bold_16"
+                            android:textColor="#4C4C4C"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/tvClass"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_4sdp"
+                            android:text="Inter 1st year / Roll no : 03 / Section -A"
+                            style="@style/textstyle1_bold_10"
+                            android:textColor="#989898"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/tvBranchName"
+                            android:layout_height="wrap_content"
+                            android:text="Inter 1st year / Roll no : 03 / Section -A"
+                            style="@style/textstyle1_bold_10"
+                            android:textColor="@color/sub_text"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        <!-- Profile End -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <!-- Row1 Start-->
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="horizontal"
+          android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            app:hintTextColor="#B8B8B8"
+            android:layout_weight="1"
+            app:boxStrokeColor="#B8B8B8"
+            app:boxStrokeWidth="@dimen/_1sdp"
+            android:layout_margin = "@dimen/_8sdp"
+            style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:background="@color/white"
+                android:paddingStart="0dp"
+                android:enabled="false"
+                android:maxLines="2"
+                style="@style/textstyle1_medium_12"
+                android:textColor="#000"
+                android:paddingTop="@dimen/_25sdp"
+                android:hint = "Name"
+                android:inputType = "textMultiLine"/>
+        </com.google.android.material.textfield.TextInputLayout>
+          <com.google.android.material.textfield.TextInputLayout
+              android:layout_width = "0dp"
+              android:layout_height = "wrap_content"
+              app:hintTextColor="#B8B8B8"
+              app:boxStrokeColor="#B8B8B8"
+              android:layout_weight="1"
+              app:boxStrokeWidth="@dimen/_1sdp"
+              android:layout_margin="@dimen/_8sdp"
+
+              style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+              <com.google.android.material.textfield.TextInputEditText
+                  android:id="@+id/etFName"
+                  android:layout_width = "match_parent"
+                  android:layout_height = "wrap_content"
+                  android:background="@color/white"
+                  android:paddingStart="0dp"
+                  style="@style/textstyle1_medium_12"
+                  android:textColor="#000"
+                  android:maxLines="2"
+                  android:enabled="false"
+                  android:paddingTop="@dimen/_25sdp"
+                  android:hint = "Father Name"
+                  android:inputType = "textMultiLine"/>
+          </com.google.android.material.textfield.TextInputLayout>
+      </LinearLayout>
+        <!-- Row1 End-->
+        <!-- Row2 Start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeColor="#B8B8B8"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin = "@dimen/_8sdp"
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etAcademicYear"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:maxLines="2"
+                    android:enabled="false"
+                    android:hint = "Academic Year"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                app:boxStrokeColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin="@dimen/_8sdp"
+
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etRollNo"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:maxLines="2"
+                    android:enabled="false"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:hint = "Registration Number"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <!-- Row2 End-->
+        <!-- Row3 Start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeColor="#B8B8B8"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin = "@dimen/_8sdp"
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etSection"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    android:maxLines="2"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:enabled="false"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:hint = "Course"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                app:boxStrokeColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin="@dimen/_8sdp"
+
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etDOJ"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    android:enabled="false"
+                    android:maxLines="2"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:hint = "Date of Joining"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <!-- Row3 End-->
+        <!-- Row4 Start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeColor="#B8B8B8"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin = "@dimen/_8sdp"
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etHostel"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    android:enabled="false"
+                    android:maxLines="2"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:hint = "Hostel"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                app:boxStrokeColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin="@dimen/_8sdp"
+
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etContactNumber"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    android:enabled="false"
+                    android:maxLines="2"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:hint = "Contact Number"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <!-- Row4 End-->
+        <!-- Row5 Start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeColor="#B8B8B8"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin = "@dimen/_8sdp"
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etGender"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:enabled="false"
+                    android:maxLines="2"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:hint = "Gender"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                app:boxStrokeColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin="@dimen/_8sdp"
+
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etMotherTongue"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:hint = "Mother Tongue"
+                    android:enabled="false"
+                    android:maxLines="2"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <!-- Row5 End-->
+        <!-- Row6 Start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeColor="#B8B8B8"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin = "@dimen/_8sdp"
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etDOB"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:enabled="false"
+                    android:maxLines="2"
+                    android:hint = "Date of Birth"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                app:boxStrokeColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin="@dimen/_8sdp"
+
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etNationality"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:enabled="false"
+                    android:maxLines="2"
+                    android:hint = "Nationality"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <!-- Row6 End-->
+        <!-- Row7 Start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeColor="#B8B8B8"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin = "@dimen/_8sdp"
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etEmail"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:enabled="false"
+                    android:maxLines="2"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:hint = "Email"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                app:boxStrokeColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin="@dimen/_8sdp"
+
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etOldTC"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    android:enabled="false"
+                    android:maxLines="2"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:hint = "Old TC"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <!-- Row7 End-->
+        <!-- Row8 Start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                app:hintTextColor="#B8B8B8"
+                android:layout_weight="1"
+                app:boxStrokeColor="#B8B8B8"
+                app:boxStrokeWidth="@dimen/_1sdp"
+                android:layout_margin = "@dimen/_8sdp"
+                style = "@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etAddresses"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="0dp"
+                    style="@style/textstyle1_medium_12"
+                    android:textColor="#000"
+                    android:paddingTop="@dimen/_25sdp"
+                    android:enabled="false"
+
+                    android:maxLines="5"
+                    android:minLines="2"
+                    android:hint = "Addresses"
+                    android:inputType = "textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+        <!-- Row8 End-->
+        </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</LinearLayout>
